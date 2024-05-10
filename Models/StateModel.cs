@@ -1,17 +1,12 @@
 ﻿namespace ReactProjectApi.Models
 {
-    public class CountryModel
+    public class StateModel
     {
+        public int? StateID { get; set; }
+        public string? StateName { get; set; }
         public int? CountryID { get; set; }
         public string? CountryName { get; set; }
-        public string? CountryCode { get; set; }
         public DateTime? Created { get; set; }
         public DateTime? Modified { get; set; }
-    }
-
-    public class CountryComboBox
-    {
-        public int? CountryID { get; set; }
-        public string? CountryName { get; set; }
     }
 }
